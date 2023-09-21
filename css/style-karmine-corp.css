@@ -129,6 +129,7 @@ main p {
 #container-players a {
     background-color: lightgray;
     color: black;
+    text-transform: uppercase;
     padding: 0.5em 2em;
     margin: 0.5em 1em;
     border-radius: 50px;
@@ -160,6 +161,7 @@ main p {
 #container-pictures article img {
     width: 150px;
     margin-bottom: 20px;
+    pointer-events: none;
 }
 
 #container-pictures article p {
