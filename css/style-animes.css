@@ -117,7 +117,7 @@ main #main-second-section img {
 
 main #main-third-section {
     width: 100%;
-    padding-top: 1.5em;
+    padding-top: 1em;
     display: flex;
     justify-content: space-between;
 }

@@ -1,0 +1,138 @@
+.body {
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+header {
+    background-image: url('../images/support-boutique/logo-wankul.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 210px;
+    margin: 2em;
+}
+
+#header-title {
+    font-size: 1.5em;
+    font-weight: 450;
+    text-transform: uppercase;
+    position: relative;
+    top: 180px;
+}
+
+.products {
+    background-color: white;
+    border: 5px solid #29389E;
+    width: 1000px;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 200px;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    padding: 0.5em;
+    margin: 0.7em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: 1s;
+    position: relative;
+}
+
+.product:hover {
+    box-shadow: 0 0 10px #29389E;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.product-image {
+    max-width: 100%;
+    /* force l'image à ne jamais dépasser du cadre de son container */
+}
+
+.product-name {
+    color: #29389E;
+    font-size: 0.6em;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 0.7em 0;
+    display: inline-block;
+}
+
+.product-price {
+    color: black;
+    font-size: 0.6em;
+    font-weight: 500;
+}
+
+.new-price {
+    color: brown;
+    font-weight: 800;
+}
+
+span.old-price {
+    color: black;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.product-basket {
+    background-color: #29389E;
+    color: white;
+    font-size: 0.7em;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em 0.7em;
+    margin: 2em 0 0;
+}
+
+.product-basket:hover {
+    background-color: black;
+    font-weight: 800;
+}
+
+.promo {
+    background-color: rgb(218, 29, 29);
+    color: black;
+    font-weight: bold;
+    font-size: 0.8em;
+    box-shadow: 0 0 5px rgb(218, 29, 29);
+    padding: 1.2em 0.5em;
+    margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    transition: 1s;
+}
+
+.promo:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+#soldes {
+    background-color: red;
+    border-radius: 0.3em;
+    width: 20px;
+    font-weight: 800;
+    line-height: 1.5;
+    padding: 1em 0.2em;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
