@@ -8,7 +8,7 @@
 }
 
 header {
-    background-image: url('../images/support-boutique/logo-wankul.png');
+    background-image: url('../images/wankul/logo-wankul.png');
     background-position: top center;
     background-repeat: no-repeat;
     height: 210px;
@@ -135,4 +135,13 @@ span.old-price {
     top: 50%;
     left: 0;
     transform: translateY(-50%);
+}
+
+footer p {
+    font-size: 0.8em;
+    font-weight: 600;
+    position: fixed;
+    left: 50%;
+    bottom: 1em;
+    transform: translateX(-50%);
 }

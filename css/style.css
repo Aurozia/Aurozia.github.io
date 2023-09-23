@@ -1,0 +1,147 @@
+body {
+    background-color: #CCD7E3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+}
+
+header section#header-section {
+    width: 300px;
+    height: 100vh;
+    background-color: #728193;
+    border-left: 5px solid #E9E9E9;
+    border-right: 5px solid #E9E9E9;
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    color: #E9E9E9;
+    font-size: 3.5em;
+    text-shadow: 0 0 10px #6d8fb3;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+h2 {
+    color: #E6DFD1;
+    font-size: 2.3em;
+    text-shadow: 0 0 2px #000000;
+    margin-top: -20px;
+    margin-left: 100px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #E6E6E6;
+    font-size: 3.5em;
+    text-shadow: 0 0 5px rgba(230,230,230, 0.7);
+}
+
+header #header-menu {
+    height: 600px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+header #header-menu nav {
+    background-color: #728193;
+    height: 745px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3em;
+}
+
+header #header-menu nav a {
+    color: #CCD7E3;
+    transition: 0.5s;
+}
+
+header #header-menu nav a:hover {
+    color: #731A18;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+header #header-menu aside {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, 0%);
+}
+
+header #header-menu p {
+    margin-top: 30px;
+}
+
+header #header-menu p a {
+    color: #EEEEEE;
+}
+
+header #header-menu p a:hover {
+    color: #292D30;
+}
+
+header #header-menu em {
+    color: #C24244;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.7em;
+    font-weight: 700;
+    text-shadow: 0 0 5px #C14241;
+    position: relative;
+    top: -10px;
+    left: 70px;
+}
+
+main {
+    padding-left: 10%;
+    margin-left: 300px;
+}
+
+main #main-header {
+    background-color: #CCD7E3;
+    background-color: #6C1D1C;
+    width: 1495px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+main #main-container {
+    background-color: #6C1D1C;
+    width: 1495px;
+    height: 925px;
+    padding: 1em;
+    overflow: auto;
+}
+
+footer p {
+    width: 1495px;
+    color: #AF333B;
+    font-size: 1em;
+    font-weight: 500;
+    margin-left: 300px;
+    position: absolute;
+    left: 10%;
+    bottom: 2%;
+    transform: translate(0%, 0%);
+} 
