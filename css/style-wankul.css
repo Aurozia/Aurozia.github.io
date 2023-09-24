@@ -1,13 +1,38 @@
-.body {
+#body {
     background-color: black;
+    height: 100vh;
     font-family: 'Raleway', sans-serif;
     color: white;
     text-align: center;
-    margin-bottom: 50px;
     position: relative;
+
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
 }
 
-header {
+#body-main {
+    background-color: black;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+#wankul-header {
     background-image: url('../images/wankul/logo-wankul.png');
     background-position: top center;
     background-repeat: no-repeat;
@@ -15,7 +40,7 @@ header {
     margin: 2em;
 }
 
-#header-title {
+#wankul-header-title {
     font-size: 1.5em;
     font-weight: 450;
     text-transform: uppercase;
@@ -23,7 +48,7 @@ header {
     top: 180px;
 }
 
-.products {
+.wankul-products {
     background-color: white;
     border: 5px solid #29389E;
     width: 1000px;
@@ -31,14 +56,14 @@ header {
     margin: 0 auto;
 }
 
-.wrapper {
+.wankul-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.product {
+.wankul-product {
     width: 200px;
     font-size: 0.8em;
     letter-spacing: 0.1em;
@@ -51,18 +76,18 @@ header {
     position: relative;
 }
 
-.product:hover {
+.wankul-product:hover {
     box-shadow: 0 0 10px #29389E;
     transform: scale(1.1);
     transition: 1s;
 }
 
-.product-image {
+.wankul-product-image {
     max-width: 100%;
     /* force l'image à ne jamais dépasser du cadre de son container */
 }
 
-.product-name {
+.wankul-product-name {
     color: #29389E;
     font-size: 0.6em;
     font-weight: 800;
@@ -71,24 +96,24 @@ header {
     display: inline-block;
 }
 
-.product-price {
+.wankul-product-price {
     color: black;
     font-size: 0.6em;
     font-weight: 500;
 }
 
-.new-price {
+.wankul-new-price {
     color: brown;
     font-weight: 800;
 }
 
-span.old-price {
+span.wankul-old-price {
     color: black;
     font-weight: 500;
     text-decoration: line-through;
 }
 
-.product-basket {
+.wankul-product-basket {
     background-color: #29389E;
     color: white;
     font-size: 0.7em;
@@ -100,12 +125,12 @@ span.old-price {
     margin: 2em 0 0;
 }
 
-.product-basket:hover {
+.wankul-product-basket:hover {
     background-color: black;
     font-weight: 800;
 }
 
-.promo {
+.wankul-promo {
     background-color: rgb(218, 29, 29);
     color: black;
     font-weight: bold;
@@ -119,12 +144,12 @@ span.old-price {
     transition: 1s;
 }
 
-.promo:hover {
+.wankul-promo:hover {
     transform: rotate(360deg);
     transition: 1s;
 }
 
-#soldes {
+#wankul-soldes {
     background-color: red;
     border-radius: 0.3em;
     width: 20px;
@@ -137,11 +162,21 @@ span.old-price {
     transform: translateY(-50%);
 }
 
-footer p {
+#wankul-soldes-page {
+    background-color: red;
+    border-radius: 0.3em;
+    width: 20px;
+    font-weight: 800;
+    line-height: 1.5;
+    padding: 1em 0.2em;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#wankul-footer p {
     font-size: 0.8em;
     font-weight: 600;
-    position: fixed;
-    left: 50%;
-    bottom: 1em;
-    transform: translateX(-50%);
+    padding-bottom: 0.5em;
 }

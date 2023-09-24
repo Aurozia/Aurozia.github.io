@@ -1,3 +1,7 @@
+#body-main {
+
+}
+
 .box {
     height: 200px;
     font-size: 3em;
@@ -30,7 +34,7 @@
 }
 
 @media (min-width: 750px) and (max-width: 1000px) {
-    body {
+    #body-main {
         display: flex;
         flex-wrap: wrap;
     }
@@ -41,7 +45,7 @@
 }
 
 @media (min-width: 1000px) and (max-width: 1250px) {
-    body {
+    #body-main {
         display: flex;
         flex-wrap: wrap;
     }
@@ -68,7 +72,7 @@
 }
 
 @media (min-width: 1250px) and (max-width: 1500px) {
-    body {
+    #body-main {
         display: flex;
         flex-wrap: wrap;
     }
@@ -86,7 +90,7 @@
 }
 
 @media (min-width: 1500px) and (max-width: 1750px) {
-    body {
+    #body-main {
         display: flex;
         flex-wrap: wrap;
     }
@@ -104,7 +108,7 @@
 }
 
 @media (min-width: 1750px) {
-    body {
+    #body-main {
         display: flex;
         flex-direction: row-reverse;
         flex-wrap: wrap-reverse;
