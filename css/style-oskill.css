@@ -37,8 +37,8 @@ body {
 }
 
 #oskill-left {
-    background-image: url('../images/oskill/nezuko.png');
-    background-position: center;
+    background-image: url('../images/oskill/girl.png');
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -51,7 +51,8 @@ body {
 
 #oskill-left-header-help {
     width: 50px;
-    color: #FFFFFF;
+    color: #000000;
+    text-shadow: 0 0 2px #000000;
     text-transform: uppercase;
 
     display: flex;
@@ -67,13 +68,14 @@ body {
 
 #oskill-left-main {
     background-color: rgba(0, 0, 0, 0.3);
-    color: #FFFFFF;
+    color: #000000;
     text-align: right;
     padding: 2em;
     margin: 0 2em;
 }
 
 #oskill-left-main p {
+    color: #FFFFFF;
     font-size: 1em;
     text-shadow: 0 0 5px #000000;
     margin-top: 1em;
@@ -91,13 +93,13 @@ body {
 }
 
 #oskill-left-footer #oskill-nav a {
-    color: #FFFFFF;
+    color: #000000;
     font-weight: 600;
     text-decoration: none;
 }
 
 #oskill-left-footer #oskill-nav a:hover {
-    color: #000000;
+    color: #92013D;
     font-weight: 600;
     text-shadow: 0 0 2px #FFFFFF;
 }
