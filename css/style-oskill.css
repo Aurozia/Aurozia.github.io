@@ -1,4 +1,4 @@
-body {
+#body {
     background-color: blanchedalmond;
     font-family: 'Open Sans', sans serif;
 }
@@ -7,10 +7,10 @@ body {
 }
 
 #oskill-right-header-h1 {
-    color: #000000;
+    color: #FFFFFF;
     font-size: 2em;
     font-weight: 700;
-    text-shadow: 0 0 2px #000000;
+    text-shadow: 0 0 2px #FFFFFF;
     margin-left: 30px;
 }
 
@@ -64,6 +64,7 @@ body {
 #oskill-left-header-help {
     font-size: 1.5em;
     font-weight: 700;
+    text-align: left;
 }
 
 #oskill-left-main {
@@ -83,6 +84,7 @@ body {
 #oskill-left-footer {
     display: flex;
     justify-content: flex-end;
+    text-shadow: 0 0 3px #000000;
 }
 
 #oskill-left-footer #oskill-nav {
@@ -98,9 +100,9 @@ body {
 }
 
 #oskill-left-footer #oskill-nav a:hover {
-    color: #92013D;
+    color: #D10157;
     font-weight: 600;
-    text-shadow: 0 0 2px #FFFFFF;
+    text-shadow: 0 0 2px #D10157;
 }
 
 #oskill-right {
@@ -108,9 +110,9 @@ body {
 }
 
 #oskill-right-header {
-    background-color: #B08395;
+    background-color: #000004;
     height: 70px;
-    border: 2px solid #E2CED6;
+    border: 2px solid #D10157;
     
     display: flex;
     justify-content: flex-start;
@@ -129,7 +131,112 @@ body {
 #oskill-right-main .oskill-right-main-section {
     width: 50%;
     height: 400px;
-    border-top: 2px solid #E2CED6;
-    border-left: 2px solid #E2CED6;
+    border: 2px solid #D10157;
     padding: 2em;
+}
+
+#oskill-right-main .oskill-right-main-article {
+    text-align: left;
+}
+
+#oskill-right-main .oskill-skill {
+    width: 100px;
+    font-size: 0.7em;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.5em 0;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+#oskill-right-main .oskill-right-main-section .oskill-skill1 {
+    background-color: red;
+}
+
+#oskill-right-main .oskill-right-main-section .oskill-skill2 {
+    background-color: orange;
+}
+
+#oskill-right-main .oskill-right-main-section .oskill-skill3 {
+    background-color: yellow;
+}
+
+#oskill-right-main .oskill-right-main-section .oskill-skill4 {
+    background-color: lightgreen;
+}
+
+#oskill-right-main .oskill-right-main-section .oskill-skill5 {
+    background-color: lightskyblue;
+}
+
+#oskill-right-main .oskill-right-main-section .oskill-skill6 {
+    background-color: violet;
+}
+
+#oskill-right-main .oskill-right-main-section .oskill-barre-skills {
+    background-color: #E9E9E9;
+    width: 100%;
+    height: 1.5em;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.3em;
+    margin: 2em auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#oskill-right-main .oskill-right-main-section .oskill-barre-skills .oskill-barre-skills-personnel {
+    background-color: green;
+    height: 1em;
+    border-radius: 10px;
+}
+
+#oskill-right-main .oskill-right-main-section .oskill-barre-skills .oskill-barre-skills1 {
+    width: 95%;
+}
+
+#oskill-right-main .oskill-right-main-section .oskill-barre-skills .oskill-barre-skills2 {
+    width: 50%;
+}
+
+#oskill-right-main .oskill-right-main-section .oskill-barre-skills .oskill-barre-skills3 {
+    width: 20%;
+}
+
+#oskill-right-main .oskill-right-main-section .oskill-barre-skills .oskill-barre-skills4 {
+    width: 50%;
+}
+
+#oskill-right-main .oskill-right-main-section .oskill-barre-skills .oskill-barre-skills5 {
+    width: 50%;
+}
+
+#oskill-right-main .oskill-right-main-section .oskill-barre-skills .oskill-barre-skills6 {
+    width: 75%;
+}
+
+#oskill-right-main .oskill-right-main-section .oskill-barre-skills .oskill-barre-skills-personnel .oskill-percent-skills {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+#oskill-right-main .oskill-right-main-section  .oskill-read-more {
+    background-color: none;
+    padding: 1.5em 0;
+    text-align: left;
+}
+
+#oskill-right-main .oskill-right-main-section  .oskill-read-more a {
+    color: blue;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#oskill-right-main .oskill-right-main-section  .oskill-read-more a:hover {
+    color: #D10157;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: underline;
 }

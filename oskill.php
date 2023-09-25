@@ -44,28 +44,64 @@
                             </header>
                             <main id="oskill-right-main">
                                 <section class="oskill-right-main-section">
-                                    <article class="oskill-right-main-article">TEXTE</article>
+                                    <p class="oskill-skill oskill-skill1">HTML/CSS</p>
+                                    <div class="oskill-barre-skills">
+                                        <div class="oskill-barre-skills-personnel oskill-barre-skills1">
+                                            <p class="oskill-percent-skills">95%</p>
+                                        </div>
+                                    </div>
                                     <article class="oskill-right-main-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.</article>
+                                    <p class="oskill-read-more"><a href="#">Continue reading</a></p>
                                 </section>
                                 <section class="oskill-right-main-section">
-                                    <article class="oskill-right-main-article">TEXTE</article>
+                                    <p class="oskill-skill oskill-skill2">PHP</p>
+                                    <div class="oskill-barre-skills">
+                                        <div class="oskill-barre-skills-personnel oskill-barre-skills2">
+                                            <p class="oskill-percent-skills">50%</p>
+                                        </div>
+                                    </div>
                                     <article class="oskill-right-main-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.</article>
+                                    <p class="oskill-read-more"><a href="#">Continue reading</a></p>
                                 </section>
                                 <section class="oskill-right-main-section">
-                                    <article class="oskill-right-main-article">TEXTE</article>
+                                    <p class="oskill-skill oskill-skill3">JavaScript</p>
+                                    <div class="oskill-barre-skills">
+                                        <div class="oskill-barre-skills-personnel oskill-barre-skills3">
+                                            <p class="oskill-percent-skills">20%</p>
+                                        </div>
+                                    </div>
                                     <article class="oskill-right-main-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.</article>
+                                    <p class="oskill-read-more"><a href="#">Continue reading</a></p>
                                 </section>
                                 <section class="oskill-right-main-section">
-                                    <article class="oskill-right-main-article">TEXTE</article>
+                                    <p class="oskill-skill oskill-skill4">C</p>
+                                    <div class="oskill-barre-skills">
+                                        <div class="oskill-barre-skills-personnel oskill-barre-skills4">
+                                            <p class="oskill-percent-skills">50%</p>
+                                        </div>
+                                    </div>
                                     <article class="oskill-right-main-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.</article>
+                                    <p class="oskill-read-more"><a href="#">Continue reading</a></p>
                                 </section>
                                 <section class="oskill-right-main-section">
-                                    <article class="oskill-right-main-article">TEXTE</article>
+                                    <p class="oskill-skill oskill-skill5">Java</p>
+                                    <div class="oskill-barre-skills">
+                                        <div class="oskill-barre-skills-personnel oskill-barre-skills5">
+                                            <p class="oskill-percent-skills">50%</p>
+                                        </div>
+                                    </div>
                                     <article class="oskill-right-main-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.</article>
+                                    <p class="oskill-read-more"><a href="#">Continue reading</a></p>
                                 </section>
                                 <section class="oskill-right-main-section">
-                                    <article class="oskill-right-main-article">TEXTE</article>
+                                    <p class="oskill-skill oskill-skill6">SQL</p>
+                                    <div class="oskill-barre-skills">
+                                        <div class="oskill-barre-skills-personnel oskill-barre-skills6">
+                                            <p class="oskill-percent-skills">75%</p>
+                                        </div>
+                                    </div>
                                     <article class="oskill-right-main-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim.</article>
+                                    <p class="oskill-read-more"><a href="#">Continue reading</a></p>
                                 </section>
                             </main>
                         </div>

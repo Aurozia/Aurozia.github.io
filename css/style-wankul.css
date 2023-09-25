@@ -36,8 +36,10 @@
     background-image: url('../images/wankul/logo-wankul.png');
     background-position: top center;
     background-repeat: no-repeat;
+    width: 400px;
     height: 210px;
     margin: 2em;
+    border: 0px solid red;
 }
 
 #wankul-header-title {

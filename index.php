@@ -16,6 +16,7 @@
             <?php include 'php/header.php' ?>
             <section id="main-section-container">
                 <p>Bienvenue sur Aurozia.github.io !</p>
+                <img id="accueil-image" src="images/accueil/hackeuse.png" alt="">
             </section>
             <?php include 'php/footer.php' ?>
         </section>

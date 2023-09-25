@@ -125,6 +125,12 @@ main #main-section #main-section-container article {
     font-size: 1.5em;
 }
 
+main #main-section #main-section-container #accueil-image {
+    border-bottom: 3px solid black;
+    margin-top: 3em;
+    pointer-events: none;
+}
+
 #main-footer p {
     height: 50px;
 } 

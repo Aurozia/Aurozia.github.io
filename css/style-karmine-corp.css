@@ -3,7 +3,9 @@
     background-position: center;
     background-repeat: repeat;
     background-size: 300px;
+    background-attachment: fixed;
     font-family: 'Oswald';
+    padding: 1em;
 }
 
 #body-main {
@@ -11,6 +13,7 @@
     background-position: center;
     background-repeat: repeat;
     background-size: 300px;
+    background-attachment: fixed;
     font-family: 'Oswald';
     padding: 1em;
 }
@@ -22,7 +25,7 @@
     text-align: center;
     border: 1px solid #000000;
     padding: 1em;
-    margin: 1em auto;
+    margin: 0 auto;
     position: relative;
 }
 

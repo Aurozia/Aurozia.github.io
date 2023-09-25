@@ -10,7 +10,7 @@ Avant de faire mon CV en HTML/CSS, je vais d'abord refaire les challenges de la 
 
 - On va y obtenir une page de présentation du club e-sport Karmine Corp.
 
-### [oNews devient oSkill](https://aurozia.github.io/oskill.html)
+### [oNews devient oSkill](https://aurozia.github.io/html/oskill.html)
 
 - On va y obtenir une page de présentation de mes compétences.
 
@@ -22,6 +22,6 @@ Avant de faire mon CV en HTML/CSS, je vais d'abord refaire les challenges de la 
 
 - On va y obtenir une page de présentation sur la collection Wankul avec quelques articles en vente, certains étant soldés.
 
-### [Reponsive boxes devient... Responsive boxes parce que c'était un petit challenge](https://aurozia.github.io/html/reponsive-boxes.html)
+### [Reponsive boxes devient... Responsive boxes parce que c'était un petit challenge](https://aurozia.github.io/html/responsive-boxes.html)
 
 - On va y obtenir une page avec des boîtes pour travailler le Responsive Web Design.
