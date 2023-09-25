@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-oskill.css">
     <link rel="shortcut icon" href="images/oskill/skill.png" type="image/x-icon">
-    <?php include 'php/font.php' ?>
+    <?php include 'templates/font.php' ?>
 </head>
 
 <body>
     <main>
-        <?php include 'php/summary.php' ?>
+        <?php include 'templates/summary.php' ?>
         <section id="main-section">
             <section id="main-section-container-page">
 

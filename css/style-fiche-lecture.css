@@ -114,18 +114,18 @@ strong.bold-underline {
     font-style: italic;
 }
 
-p {
+p.fiche-lecture-paragraph {
     color: black;
     text-align: left;
     line-height: 2;
     margin: 1.3em 0;
 }
 
-p:first-of-type {
+p.fiche-lecture-paragraph:first-of-type {
     margin-top: 0.5em;
 }
 
-p:last-of-type {
+p.fiche-lecture-paragraph:last-of-type {
     margin-bottom: 0;
 }
 

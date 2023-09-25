@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/accueil/home.png" type="image/x-icon">
-    <?php include 'php/font.php' ?>
+    <?php include 'templates/font.php' ?>
 </head>
 <body>
     <main>
-        <?php include 'php/summary.php' ?>
+        <?php include 'templates/summary.php' ?>
         <section id="main-section">
-            <?php include 'php/header.php' ?>
+            <?php include 'templates/header.php' ?>
             <section id="main-section-container">
                 <p>Bienvenue sur Aurozia.github.io !</p>
                 <img id="accueil-image" src="images/accueil/hackeuse.png" alt="">
             </section>
-            <?php include 'php/footer.php' ?>
+            <?php include 'templates/footer.php' ?>
         </section>
     </main>
 </body>

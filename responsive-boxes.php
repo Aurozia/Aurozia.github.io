@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-responsive-boxes.css">
     <link rel="shortcut icon" href="images/responsive-boxes/responsive-boxes-logo.png" type="image/x-icon">
-    <?php include 'php/font.php' ?>
+    <?php include 'templates/font.php' ?>
 </head>
 
 <body>
     <main>
-        <?php include 'php/summary.php' ?>
+        <?php include 'templates/summary.php' ?>
         <section id="main-section">
             <section id="main-section-container-page">
                 <div id="body-main">
