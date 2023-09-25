@@ -1,4 +1,4 @@
-## [Voici mon premier repository ツ](https://aurozia.github.io)
+## [Voici mon premier repository ツ](https://aurozia.github.io/index.html)
 
 Avant de faire mon CV en HTML/CSS, je vais d'abord refaire les challenges de la S01 que j'ai pu faire dans la formation O'Clock mais à ma sauce.
 
