@@ -1,5 +1,5 @@
 body {
-    background-color: #9F9F9F;
+    background-color: #EEEEEE;
 }
 
 a {
@@ -7,28 +7,28 @@ a {
 }
 
 #header-h1 {
-    color: #EC5300;
+    color: #701819;
     font-family: 'Dancing Script', sans-serif;
     font-size: 3em;
     font-weight: 400;
-    text-shadow: 0 0 5px #EECC63;
+    text-shadow: 0 0 5px #701819;
 }
 
 #header-h2 {
-    color: #EECC63;
+    color: #C04545;
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
     font-weight: 400;
-    text-shadow: 0 0 5px rgba(230,230,230, 0.7);
+    text-shadow: 0 0 5px rgba(192,69,69, 0.7);
     text-transform: uppercase;
 }
 
 main #summary {
     width: 300px;
     height: 100vh;
-    background-color: #000000;
-    border-left: 5px solid #EC5300;
-    border-right: 5px solid #EC5300;
+    background-color: #738092;
+    border-left: 5px solid #6F1C17;
+    border-right: 5px solid #6F1C17;
     padding: 30px 0;
     position: absolute;
     left: 1.5%;
@@ -40,7 +40,6 @@ main #summary {
 }
 
 main #summary nav {
-    text-shadow: 0 0 3px #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,55 +48,60 @@ main #summary nav {
 }
 
 main #summary nav a {
-    color: #EECC63;
+    color: #831718;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
     font-weight: 600;
+    text-shadow: 0 0 3px #831718;
     transition: 0.5s;
 }
 
 main #summary nav a:hover {
-    color: #EC5300;
+    color: #060607;
     font-weight: 700;
-    text-shadow: 0 0 1px #FFFFFF;
+    text-shadow: 0 0 1px #060607;
     transform: scale(1.1);
     transition: 0.5s;
 }
 
 main #summary p a {
-    color: #EECC63;
+    color: #701819;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
     font-weight: 600;
-    text-shadow: 0 0 3px #FFFFFF;
+    text-shadow: 0 0 3px #701819;
     display: block;
     text-align: center;
     padding-bottom: 0.3em;
 }
 
 main #summary p a:hover {
-    color: #EC5300;
-    text-shadow: 0 0 0px #EC5300;
+    color: #060607;
+    text-shadow: 0 0 5px #060607;
 }
 
 main #summary em {
-    color: #EC5300;
+    color: #701819;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1em;
     font-weight: 700;
-    text-shadow: 0 0 5px #EC5300;
+    text-shadow: 0 0 5px #701819;
 }
 
 main #main-section {
-    background-color: #00220E;
+    background-color: #CCD7E3;
     height: 100vh;
-    color: #9F9F9F;
     text-align: center;
-    text-shadow: 0 0 3px #9F9F9F;
-    border-right: 5px solid #EC5300;
+    text-shadow: 0 0 3px #CCD8E2;
+    border-right: 5px solid #6F1C17;
     padding-left: 300px;
     margin-left: 1.5%;
     margin-right: 1.5%;
+}
+
+main #main-section p {
+    color: #060607;
+    text-shadow: 0 0 1px #ABADB7;
 }
 
 main #main-section #main-section-header {
@@ -126,9 +130,10 @@ main #main-section #main-section-container article {
 } 
 
 #main-footer p {
-    color: #A2A2A2;
+    color: #6C737B;
     font-size: 1em;
     font-weight: 500;
+    text-shadow: 0 0 5px #6C737B;
     display: flex;
     justify-content: center;
     align-items: center;

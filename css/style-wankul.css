@@ -175,7 +175,8 @@ span.wankul-old-price {
     transform: translateY(-50%);
 }
 
-#wankul-footer p {
+#wankul-footer .wankul-footer-p {
+    color: white;
     font-size: 0.8em;
     font-weight: 600;
     padding-bottom: 0.5em;

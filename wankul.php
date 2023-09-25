@@ -93,7 +93,7 @@
                         <div id="wankul-soldes-page">S O L D E S</div>
                     </main>
                     <footer id="wankul-footer">
-                        <p>&copy; Wankul Collection</p>
+                        <p class="wankul-footer-p">&copy; Wankul Collection</p>
                     </footer>
                 </div>
                 </div>

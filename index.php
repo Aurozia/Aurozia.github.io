@@ -15,7 +15,7 @@
         <section id="main-section">
             <?php include 'php/header.php' ?>
             <section id="main-section-container">
-                <article>Bienvenue sur Aurozia.github.io !</article>
+                <p>Bienvenue sur Aurozia.github.io !</p>
             </section>
             <?php include 'php/footer.php' ?>
         </section>

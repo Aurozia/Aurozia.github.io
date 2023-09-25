@@ -52,7 +52,7 @@ body {
 #oskill-left-header-help {
     width: 50px;
     color: #000000;
-    text-shadow: 0 0 2px #000000;
+    text-shadow: 0 0 3px #000000;
     text-transform: uppercase;
 
     display: flex;
@@ -68,13 +68,12 @@ body {
 
 #oskill-left-main {
     background-color: rgba(0, 0, 0, 0.3);
-    color: #000000;
     text-align: right;
     padding: 2em;
     margin: 0 2em;
 }
 
-#oskill-left-main p {
+#oskill-left-main .oskill-left-main-p {
     color: #FFFFFF;
     font-size: 1em;
     text-shadow: 0 0 5px #000000;

@@ -109,6 +109,7 @@ main #animes-main-first-section {
 }
 
 main #animes-main-first-section p {
+    color: white;
     font-size: 1em;
     font-weight: 600;
     line-height: 1.3;
