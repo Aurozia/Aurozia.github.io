@@ -206,3 +206,18 @@ main #animes-main-third-section #animes-main-third-section-second-article #anime
     text-align: center;
     padding: 2em 0;
 }
+
+a.back-to-home {
+    width: fit-content;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 0.3em;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    padding: 1em 0.5em;
+    margin: 1em 0;
+    display: block;
+}
